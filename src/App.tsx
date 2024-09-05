@@ -1,4 +1,5 @@
 import "./App.css";
+import { AuthUser } from "./components/AuthUser";
 // import Counter from "./components/Counter";
 import { Login } from "./components/Login";
 // import { Youtube } from "./components/Youtube";
@@ -24,7 +25,8 @@ function App() {
 
         {/* <Counter />
         <Youtube /> */}
-        <Login />
+        {/* <Login /> */}
+        <AuthUser />
       </div>
     </>
   );

@@ -1,9 +1,7 @@
 import React, { useState } from "react";
+import { ILogin } from "../models/ILogin";
 interface ISTATE {
-  user: {
-    email: string;
-    password: string;
-  };
+  user: ILogin;
 }
 export const Login: React.FC = () => {
   const [state, setState] = useState<ISTATE>({
@@ -23,7 +21,6 @@ export const Login: React.FC = () => {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>): void => {
     event.preventDefault();
     console.log(state.user);
-
     alert("login success");
   };
   return (
