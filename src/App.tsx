@@ -1,7 +1,9 @@
 import "./App.css";
-import { AuthUser } from "./components/AuthUser";
+import { User } from "./components/User";
+// import { AuthUser } from "./components/AuthUser";
 // import Counter from "./components/Counter";
-import { Login } from "./components/Login";
+// import { Login } from "./components/Login";
+// import { UserList } from "./components/UserList";
 // import { Youtube } from "./components/Youtube";
 // import { FunComp } from "./components/FunComp";
 // import { ClassComp } from "./components/ClassComp";
@@ -26,7 +28,9 @@ function App() {
         {/* <Counter />
         <Youtube /> */}
         {/* <Login /> */}
-        <AuthUser />
+        {/* <AuthUser /> */}
+        {/* <UserList /> */}
+        <User />
       </div>
     </>
   );

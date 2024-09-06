@@ -20,7 +20,7 @@ export const AuthUser: React.FC = () => {
             {login.isLogin && login.isLogin ? (
               <h1>Welcome User</h1>
             ) : (
-              <h1>Please Login fro dashboard</h1>
+              <h1>Please LoginFor dashboard</h1>
             )}
 
             {login.isLogin && login.isLogin ? (
