@@ -33,7 +33,7 @@ export const User: React.FC = () => {
           errorMsg: err.message,
         })
       );
-  });
+  }, []);
 
   const { loading, users, errorMsg } = state;
   return (
